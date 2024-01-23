@@ -1,0 +1,17 @@
+import { Title } from '../.nuxt/components';
+<template>
+    <div>
+        <h1>Welcome to the homepage</h1>
+        <AppAlert>
+            This is an auto-imported component
+        </AppAlert>
+    </div>
+</template>
+
+<script  setup lang="ts">
+
+useHead({
+  title : "หน้าแรก",
+})
+
+</script>

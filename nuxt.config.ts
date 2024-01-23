@@ -46,4 +46,5 @@ export default defineNuxtConfig({
       "composables/**",
     ],
   },
+  css : ["~/assets/css/main.css"],
 });
